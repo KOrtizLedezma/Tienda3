@@ -1,15 +1,14 @@
 package categoría.control;
 
-
 import java.util.HashSet;
 import java.util.Iterator;
-
 import categoría.entity.Categoría;
 import categoría.entity.NoExisteCategoría;
 
 public class Categorías {
 
 	private HashSet<Categoría> categorías;
+	//Deberia Cambiar
 
 	public Categorías(int tamaño) {
 	    categorías = new HashSet<Categoría>();
